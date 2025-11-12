@@ -1,15 +1,4 @@
-Perfect 👍 Sudrshan!
-Since your **React app (frontend)** has its own **Dockerfile**, you can run it directly inside a container — independent from the backend microservices.
 
-Here’s a clean and professional **README.md** specifically for your `StyleMart-Frontend` React app.
-It includes all setup steps, Docker commands, and helpful notes.
-
----
-
-## ✅ **Final README.md for React App (StyleMart Frontend)**
-
-````markdown
-# 🛍️ StyleMart - Frontend (React App)
 
 The **StyleMart Frontend** is a modern web application built using **React.js**.  
 It provides an interactive user interface for the **StyleMart E-commerce Platform**, connecting seamlessly with backend microservices for product listings, authentication, cart management, and order tracking.
