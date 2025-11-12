@@ -148,7 +148,7 @@ Bachelor of Computer Science (B.Sc. - ECS)
 * **Axios**
 * **Docker**
 
-````
+
 
 ---
 
