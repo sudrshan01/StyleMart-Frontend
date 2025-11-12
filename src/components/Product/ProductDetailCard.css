@@ -1,0 +1,165 @@
+/* Full-page container */
+.container.product-detail-card {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;        /* full browser width */
+    min-height: 90vh;   /* full browser height */
+    padding: 0px;
+    box-sizing: border-box;
+    gap: 20px;
+    background: #fff;
+}
+
+/* Image Section */
+.image-section {
+    display: flex;
+    flex: 1;           /* take 50%+ space automatically */
+    gap: 20px;
+}
+
+/* Thumbnail column */
+.thumbnail-column {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;  /* almost full height */
+    overflow-y: auto;
+    gap: 10px;
+}
+
+/* Thumbnail images */
+.thumbnail-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.thumbnail-image:hover,
+.thumbnail-image.active {
+    border: 2px solid #000;
+}
+
+/* Main image wrapper */
+.main-image-wrapper {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main-product-image {
+    width: 100%;       /* full width of container */
+    max-height: 90vh;  /* max height, don’t stretch beyond viewport */
+    object-fit: fill; /* maintain aspect ratio */
+   
+    background: #f9f9f9;
+}
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.color-btn:hover,
+.color-btn.active {
+  transform: scale(1.1);
+  border: 2px solid #000;
+}
+
+/* Details Section */
+.details-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* vertical alignment */
+    align-items: flex-start;      /* horizontal alignment to the left */
+    gap: 10px;
+    padding: 10px;
+}
+.quantity-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.quantity-label {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* Quantity selector: merged buttons + input */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.quantity-selector button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  background: #fff;
+  color: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quantity-selector button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.quantity-selector button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 0;
+}
+
+.quantity-selector button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 0;
+}
+
+.quantity-selector input {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #333;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+}
+
+
+/* Price styling */
+.price {
+    font-size: 2rem;
+    color: #000;
+    margin-top: 20px;
+}
+.rating {
+  font-size: 1.2rem; /* increase size of stars */
+  line-height: 1.2;
+  color: #101010; /* Bootstrap warning color for stars */
+  margin-bottom: 10px;
+}
+.rating-num{
+    font-size: 1.1rem;
+}
+.details-section p,
+.details-section h2,
+.details-section h3,
+.details-section h4,
+.details-section h5,
+.details-section h6 {
+    margin-bottom: 0; /* remove bottom margin */
+}
