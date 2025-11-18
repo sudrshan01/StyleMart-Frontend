@@ -42,6 +42,19 @@ npm run dev
 The app will run on:
 🔗 [http://localhost:3000](http://localhost:3000)
 
+🔐 Login Instructions (New Section)
+
+To access features such as cart, orders, reviews, and notifications, users must log in first.
+
+1️⃣ Login Page Details
+
+Your React app provides a login screen where the user must enter:
+
+Use Email Address: admin@example.com 
+
+Use Password: admin123
+
+These credentials are sent to the UserService for verification.
 ---
 
 ## 🐳 Run Using Docker
@@ -79,7 +92,19 @@ This will:
 
 ✅ Now open your browser and visit:
 [http://localhost:8089](http://localhost:3000)
+🔐 Login Instructions (New Section)
 
+To access features such as cart, orders, reviews, and notifications, users must log in first.
+
+1️⃣ Login Page Details
+
+Your React app provides a login screen where the user must enter:
+
+Use Email Address: admin@example.com 
+
+Use Password: admin123
+
+These credentials are sent to the UserService for verification.
 ---
 
 ### 3️⃣ Check if the Container is Running
