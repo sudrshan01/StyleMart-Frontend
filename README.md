@@ -42,7 +42,7 @@ npm run dev
 The app will run on:
 🔗 [http://localhost:3000](http://localhost:3000)
 
-🔐 Login Instructions (New Section)
+🔐 Login Instructions 
 
 To access features such as cart, orders, reviews, and notifications, users must log in first.
 
@@ -92,7 +92,9 @@ This will:
 
 ✅ Now open your browser and visit:
 [http://localhost:8089](http://localhost:3000)
-🔐 Login Instructions (New Section)
+
+
+🔐 Login Instruction
 
 To access features such as cart, orders, reviews, and notifications, users must log in first.
 
